@@ -30,10 +30,14 @@
   + mernfa.ir
     + assets
       + fonts
+        + Shabnam.ttf
       + images
+        + mernfa-logo.webp
       + favicon.png
     + css
       + fonts.css
+      + header.css
+      + main.css
       + reset.css
       + responsive.css
       + style.css

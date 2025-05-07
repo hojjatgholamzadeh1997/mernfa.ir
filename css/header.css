@@ -1,0 +1,167 @@
+/* header */
+
+header {
+  padding: 15px;
+  color: #fff;
+  position: sticky;
+  top: 0;
+}
+
+/* header nav */
+header nav {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+/* header nav right */
+header nav .right {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: start;
+  gap: 15px;
+}
+
+header nav .right .logo {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 7.5px;
+}
+
+header nav .right .logo:hover {
+  cursor: pointer;
+}
+
+header nav .right .logo-image {
+  background-color: #334156;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  padding: 10px;
+  border-radius: 7.5px;
+}
+
+header nav .right img {
+  width: 30px;
+  height: 30px;
+}
+
+header nav .right span {
+  font-family: Shabnam;
+  color: #38BDEA;
+  font-size: 25px;
+  line-height: 45px;
+  display: none;
+}
+
+header nav .right .buttons {
+  font-family: Shabnam;
+  grid-template-columns: auto auto auto auto;
+  gap: 5px;
+  display: none;
+  font-size: 14px;
+}
+
+header nav .right .buttons .button {
+  padding: 7.5px 10px;
+  width: 100%;
+  background-color: #171717;
+  border-radius: 10px;
+  line-height: 30px;
+}
+
+header nav .right .buttons .button:first-child {
+  background-color: #025d92;
+}
+
+header nav .right .buttons .button:hover {
+  background-color: #242424;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+/* header nav left */
+header nav .left {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: end;
+  gap: 15px;
+}
+
+header nav .left .person, header nav .left .cart {
+  background-color: #0284C7;
+  border-radius: 25%;
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-content: center;
+  display: none;
+}
+
+header nav .left .menu {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+header nav .left .cart {
+  background-color: #3f3f46;
+}
+
+header nav .left .cart:hover {
+  background-color: #025D92;
+  cursor: pointer;
+}
+
+header nav .left .person {
+  background-color: #0284C7;
+}
+
+header nav .left .person:hover {
+  background-color: #0EA5E9;
+  cursor: pointer;
+}
+
+header nav .left .person i, header nav .left .cart i {
+  font-size: 30px;
+}
+
+header nav .left .menu i {
+  font-size: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-color: #1B1D20;
+  }
+  header nav .right .logo-image {
+    background-color: transparent;
+  }
+  header nav .right span {
+    display: inline;
+  }
+  header nav .right .buttons {
+    display: grid;
+  }
+  header nav .left {
+    grid-template-columns: auto auto;
+  }
+  header nav .left .person, header nav .left .cart {
+    display: grid;
+  }
+  header nav .left .menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header nav .right .buttons {
+    gap: 15px;
+  }
+  header nav .right .buttons .button {
+    padding: 7.5px 15px;
+  }
+}
