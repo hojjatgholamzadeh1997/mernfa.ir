@@ -1,0 +1,36 @@
+/* Responsive using Grid & Bootstrap Breakpoints */
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+.row {
+  padding: 25px;
+}
+
+.col {
+  padding: 15px;
+}
+
+@media screen and (min-width: 576px) {
+  /* sm */
+}
+
+@media screen and (min-width: 768px) {
+  /* md */
+}
+
+@media screen and (min-width: 992px) {
+  /* lg */
+}
+
+@media screen and (min-width: 1200px) {
+  /* xl */
+}
+
+@media screen and (min-width: 1400px) {
+  /* xxl */
+}
