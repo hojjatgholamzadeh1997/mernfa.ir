@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="350" height="350"/>
+    </clipPath>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-path)">
+    <rect width="350" height="350" fill="#fff"/>
+    <g id="SPRK_default_preset_name_custom_1-2" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-path)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="350" height="350" fill="#fff"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(-21.905 -21.76)">
+        <g id="_6502421" data-name="6502421" transform="translate(0 0)">
+          <g id="Background_Simple" data-name="Background Simple" transform="translate(0 0)">
+            <path id="Path_1" data-name="Path 1" d="M281.886,138.351c-2.962,26.879-14.848,58.077-38.934,72.293-36.375,21.479-33.11,54.891-104.28,68.961a143.52,143.52,0,0,1-31.574,2.823,119.866,119.866,0,0,1-15.519-1.386c-45.327-7.007-76.011-39.159-87.435-77.778-15.013-50.887,14.147-83.893,33.5-103.782S70.862,17.327,140.711,2.973A139.667,139.667,0,0,1,173.166.052c24.89.8,52.085,9.245,70.976,26.682q2.136,1.944,4.146,4.061C274.561,58.138,285.928,101.7,281.886,138.351Z" transform="translate(162.132 0) rotate(35.025)" fill="#ececec"/>
+          </g>
+        </g>
+      </g>
+      <text id="mernfa.ir" transform="translate(14.325 37)" font-size="20" font-family="SegoeUI, Segoe UI" letter-spacing="0.02em"><tspan x="0" y="0">mernfa.ir</tspan></text>
+    </g>
+    <g id="_6" data-name="6" transform="translate(56 61)">
+      <path id="Path_1-2" data-name="Path 1" d="M238,119a120.177,120.177,0,1,1-.165-6.256Q238,115.869,238,119Z" transform="translate(0)" fill="none"/>
+      <path id="Path_2" data-name="Path 2" d="M181.5,223.13v-30.94l-26.795-15.47-26.794,15.47v30.94l26.794,15.47Z" transform="translate(-68.453 -94.573)" fill="#3b8739"/>
+      <path id="Path_3" data-name="Path 3" d="M439.359,218.436l17.461,10.083L439.359,238.6l-26.792-15.47v-30.94l26.792-15.47L455.6,186.1a118.323,118.323,0,0,1,3.026,21.216l-9.928,5.732V202.272l-9.335-5.387-9.335,5.387V213.05l9.335,5.387Z" transform="translate(-220.788 -94.574)" fill="#333"/>
+      <path id="Path_4" data-name="Path 4" d="M469.416,239.369v-6.006l-5.2-3-5.2,3v6.006l5.2,3Z" transform="translate(-245.644 -123.279)" fill="#66a060"/>
+      <path id="Path_5" data-name="Path 5" d="M46.8,192.193v40.8L28.934,222.8V201.884l-8.922-5.154-8.923,5.153V222.8L.942,228.588a120.086,120.086,0,0,1,2.152-42.1l16.918-9.768L46.8,192.193Z" transform="translate(0 -94.574)" fill="#333"/>
+      <path id="Path_6" data-name="Path 6" d="M0,0H53.588V30.939H0Z" transform="translate(86.251 82.146) rotate(60)" fill="#6da75d"/>
+      <path id="Path_7" data-name="Path 7" d="M127.912,240.94l9.2-15L127.912,210Z" transform="translate(-68.453 -112.383)" fill="#55a344"/>
+      <path id="Path_8" data-name="Path 8" d="M203.415,207.659l8.932-15.469-26.794-15.47Z" transform="translate(-99.3 -94.573)" fill="#639d57"/>
+      <path id="Path_9" data-name="Path 9" d="M305.362,99.579v41.048l-8.981-5.188-26.8,15.47v30.94l26.8,15.47,26.792-15.47V109.113Zm-.049,71.954-8.932,5.158-8.932-5.158V161.221l8.932-5.158,8.932,5.158v10.312Z" transform="translate(-144.27 -53.29)" fill="#333"/>
+      <path id="Path_10" data-name="Path 10" d="M260.959,348.772a5.212,5.212,0,0,0-5.364-4.522c-4.838,0-8.151.631-8.151,3.313s9.413,2.682,12.989,3.734,6.731,3.786,5.153,8.624-6.416,5.364-13.883,5.364a8.677,8.677,0,0,1-9.151-8.624h4.207s-.526,3.786,4.417,4.417,9.67.986,10.307-2.839c.841-5.049-15.986-2.524-17.459-7.467-1.244-4.177-.526-9.676,7.888-10.518s13.042,2.873,13.042,8.414l-4,.105Z" transform="translate(-129.804 -182.025)" fill="#66a060"/>
+      <path id="Path_11" data-name="Path 11" d="M194.723,346.261l9.3,5.369a7.01,7.01,0,0,0,10.514-6.07V318.834h-3.791v25.672A3.828,3.828,0,0,1,205,347.82l-6.492-3.748v-27.4l23.727-13.7,23.727,13.7v27.4l-23.727,13.7-6.835-3.946-4.463,1.8,11.3,6.523,27.518-15.888V314.487L222.24,298.6l-27.518,15.888v31.773Z" transform="translate(-104.207 -159.798)" fill="#66a060"/>
+    </g>
+  </g>
+</svg>
