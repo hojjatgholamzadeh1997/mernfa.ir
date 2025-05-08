@@ -47,7 +47,7 @@ header nav .right img {
 
 header nav .right span {
   font-family: Shabnam;
-  color: #38BDEA;
+  color: #38bdea;
   font-size: 25px;
   line-height: 45px;
   display: none;
@@ -87,8 +87,9 @@ header nav .left {
   gap: 15px;
 }
 
-header nav .left .person, header nav .left .cart {
-  background-color: #0284C7;
+header nav .left .person,
+header nav .left .cart {
+  background-color: #0284c7;
   border-radius: 25%;
   height: 50px;
   width: 50px;
@@ -112,20 +113,21 @@ header nav .left .cart {
 }
 
 header nav .left .cart:hover {
-  background-color: #025D92;
+  background-color: #025d92;
   cursor: pointer;
 }
 
 header nav .left .person {
-  background-color: #0284C7;
+  background-color: #0284c7;
 }
 
 header nav .left .person:hover {
-  background-color: #0EA5E9;
+  background-color: #0ea5e9;
   cursor: pointer;
 }
 
-header nav .left .person i, header nav .left .cart i {
+header nav .left .person i,
+header nav .left .cart i {
   font-size: 30px;
 }
 
@@ -135,7 +137,7 @@ header nav .left .menu i {
 
 @media screen and (min-width: 768px) {
   header {
-    background-color: #1B1D20;
+    background-color: #1b1d20;
   }
   header nav .right .logo-image {
     background-color: transparent;
@@ -149,7 +151,8 @@ header nav .left .menu i {
   header nav .left {
     grid-template-columns: auto auto;
   }
-  header nav .left .person, header nav .left .cart {
+  header nav .left .person,
+  header nav .left .cart {
     display: grid;
   }
   header nav .left .menu {

@@ -12,10 +12,10 @@
 
   **Technologies Used in the Project** :
 
-  - *HTML*
-  - *CSS*
-  - *Git*
-  - *Markdown*
+  - _HTML_
+  - _CSS_
+  - _Git_
+  - _Markdown_
 
 ---
 
@@ -27,23 +27,23 @@
 
 - ### Folder Structure :
 
-  + mernfa.ir
-    + assets
-      + fonts
-        + aviny-web.woff2
-        + Shabnam-Thin.ttf
-        + Shabnam.ttf
-      + images
-        + mernfa-logo.webp
-        + nextjs-learning.webp
-      + favicon.png
-    + css
-      + fonts.css
-      + header.css
-      + main.css
-      + reset.css
-      + responsive.css
-      + style.css
-    + About.txt
-    + index.html
-    + README.md
+  - mernfa.ir
+    - assets
+      - fonts
+        - aviny-web.woff2
+        - Shabnam-Thin.ttf
+        - Shabnam.ttf
+      - images
+        - mernfa-logo.webp
+        - nextjs-learning.webp
+      - favicon.png
+    - css
+      - fonts.css
+      - header.css
+      - main.css
+      - reset.css
+      - responsive.css
+      - style.css
+    - About.txt
+    - index.html
+    - README.md
