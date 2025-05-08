@@ -4,3 +4,13 @@
   font-family: Shabnam;
   src: url(../assets/fonts/Shabnam.ttf);
 }
+
+@font-face {
+  font-family: Shabnam-Thin;
+  src: url(../assets/fonts/Shabnam-Thin.ttf);
+}
+
+@font-face {
+  font-family: Aviny;
+  src: url(../assets/fonts/aviny-web.woff2);
+}

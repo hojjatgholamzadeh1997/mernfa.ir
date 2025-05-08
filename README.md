@@ -30,9 +30,12 @@
   + mernfa.ir
     + assets
       + fonts
+        + aviny-web.woff2
+        + Shabnam-Thin.ttf
         + Shabnam.ttf
       + images
         + mernfa-logo.webp
+        + nextjs-learning.webp
       + favicon.png
     + css
       + fonts.css

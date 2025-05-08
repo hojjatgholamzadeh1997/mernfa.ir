@@ -1,0 +1,189 @@
+/* main */
+
+/* main section-header */
+main section.section-header {
+  margin: 40px 0 20px 0;
+}
+
+main section.section-header .section-header-up {
+  display: grid;
+  gap: 50px;
+}
+
+/* main section-header up nextjs-learning*/
+main section.section-header .section-header-up .nextjs-learning {
+  border: 5px solid #0284c7;
+  border-radius: 20px;
+  background-color: #27272a;
+  padding: 50px 25px;
+  justify-content: center;
+  align-content: center;
+  gap: 40px;
+  display: none;
+}
+
+main section.section-header .section-header-up .nextjs-learning img.right {
+  width: 420px;
+  border-radius: 15px;
+}
+
+main section.section-header .section-header-up .nextjs-learning .left {
+  font-family: Shabnam;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 50px;
+}
+
+main section.section-header .section-header-up .nextjs-learning .left h1 {
+  font-family: Shabnam-Thin;
+  color: #facc15;
+  font-size: 30px;
+  line-height: 50px;
+}
+
+main section.section-header .section-header-up .nextjs-learning .left p {
+  color: #818cf8;
+}
+
+main section.section-header .section-header-up .nextjs-learning .left button {
+  color: #4ade7d;
+  border: 2px solid #4ade7d;
+  background-color: transparent;
+  padding: 10px;
+  width: 190px;
+  margin: auto;
+  border-radius: 10px 10px 10px 0;
+  animation: button-flash 1s ease-in-out infinite alternate;
+}
+
+/* main section-header up mernfa-text*/
+main section.section-header .section-header-up .mernfa-text {
+  font-family: Shabnam;
+  font-size: 72px;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  animation: text-flash 10s ease-in-out infinite alternate;
+}
+
+/* main section-header up shortcut-buttons*/
+main section.section-header .section-header-up .shortcut-buttons {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  font-size: 20px;
+}
+
+main section.section-header .section-header-up .shortcut-buttons .button-up,
+main section.section-header .section-header-up .shortcut-buttons .button-down {
+  background-color: #4f46e5;
+  border: 2px solid #4f46e5;
+  border-radius: 20px;
+  color: #fff;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  gap: 15px;
+  font-family: Aviny;
+  letter-spacing: 1.5px;
+  padding: 17.5px 15px;
+}
+
+main section.section-header .section-header-up .shortcut-buttons .button-up:hover,
+main section.section-header .section-header-up .shortcut-buttons .button-down:hover {
+  border-color: #fff;
+  transition: 1s;
+  cursor: pointer;
+}
+
+@keyframes button-flash {
+  0% {
+    border-color: #4ade7d;
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+@keyframes text-flash {
+  0% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #ffa600, 0 0 15px #ffa600,
+      0 0 20px #ffa600, 0 0 25px #ffa600, 0 0 30px #ffa600;
+  }
+  25% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #2cb2ff, 0 0 15px #2cb2ff,
+      0 0 20px #2cb2ff, 0 0 25px #2cb2ff, 0 0 30px #2cb2ff;
+  }
+  50% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #ff477e, 0 0 15px #ff477e,
+      0 0 20px #ff477e, 0 0 25px #ff477e, 0 0 30px #ff477e;
+  }
+  75% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #12d800, 0 0 15px #12d800,
+      0 0 20px #12d800, 0 0 25px #12d800, 0 0 30px #12d800;
+  }
+  100% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #6d16fa, 0 0 15px #6d16fa,
+      0 0 20px #6d16fa, 0 0 25px #6d16fa, 0 0 30px #6d16fa;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  main section.section-header .section-header-up .shortcut-buttons {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  main section.section-header .section-header-up .nextjs-learning {
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main section.section-header .section-header-up .nextjs-learning {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main section.section-header .section-header-up {
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  main section.section-header .section-header-up .nextjs-learning {
+    grid-row: 1 / 4;
+    grid-column: 1 / 3;
+  }
+  main section.section-header .section-header-up .shortcut-buttons {
+    grid-row: 2 / 4;
+  }
+  main section.section-header .section-header-up .shortcut-buttons {
+    grid-template-columns: none;
+  }
+  main section.section-header .section-header-up .nextjs-learning img.right {
+    width: 360px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main section.section-header .section-header-up .nextjs-learning {
+    padding: 25px 50px;
+  }
+  main section.section-header .section-header-up .nextjs-learning img.right {
+    width: 400px;
+  }
+  main section.section-header .section-header-up .shortcut-buttons .button-up,
+  main section.section-header .section-header-up .shortcut-buttons .button-down {
+  padding: 20px 25px;
+  width: 400px;
+  font-size: 25px;
+  gap: 5px;
+  }
+}
