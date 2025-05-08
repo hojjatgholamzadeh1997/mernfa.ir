@@ -34,6 +34,7 @@
         - Shabnam-Thin.ttf
         - Shabnam.ttf
       - images
+        - course-nextjs-tutorial-pro.svg
         - mernfa-logo.webp
         - nextjs-learning.webp
       - favicon.png
