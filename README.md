@@ -47,6 +47,7 @@
         - course-search-bar.svg
         - course-slider-with-next.js.svg
         - course-video-player.svg
+        - fishing-shop-backend.svg
         - mernfa-logo.webp
         - nextjs-learning.webp
         - nextjs-pro-advanced.svg

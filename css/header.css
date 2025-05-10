@@ -1,11 +1,16 @@
 /* header */
-
 header {
   padding: 15px;
   color: #fff;
   position: sticky;
   top: 0;
   z-index: 9999;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    background-color: #1b1d20;
+  }
 }
 
 /* header nav */
@@ -15,24 +20,24 @@ header nav {
 }
 
 /* header nav right */
-header nav .right {
+header nav .header-right {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   justify-content: start;
   gap: 15px;
 }
 
-header nav .right .logo {
+header nav .header-right .logo {
   display: grid;
   grid-template-columns: auto auto;
   gap: 7.5px;
 }
 
-header nav .right .logo:hover {
+header nav .header-right .logo:hover {
   cursor: pointer;
 }
 
-header nav .right .logo-image {
+header nav .header-right .logo .logo-image {
   background-color: #334156;
   display: grid;
   justify-content: center;
@@ -41,12 +46,18 @@ header nav .right .logo-image {
   border-radius: 7.5px;
 }
 
-header nav .right img {
+@media screen and (min-width: 768px) {
+  header nav .header-right .logo-image {
+    background-color: transparent;
+  }
+}
+
+header nav .header-right .logo .logo-image img {
   width: 30px;
   height: 30px;
 }
 
-header nav .right span {
+header nav .header-right .logo span {
   font-family: Shabnam;
   color: #38bdea;
   font-size: 25px;
@@ -54,42 +65,72 @@ header nav .right span {
   display: none;
 }
 
-header nav .right .buttons {
-  font-family: Shabnam;
-  grid-template-columns: auto auto auto auto;
-  gap: 5px;
-  display: none;
-  font-size: 14px;
+@media screen and (min-width: 768px) {
+  header nav .header-right .logo span {
+    display: inline;
+  }
 }
 
-header nav .right .buttons .button {
-  padding: 7.5px 10px;
+header nav .header-right .buttons {
+  font-family: Shabnam;
+  grid-template-columns: auto auto auto auto;
+  font-size: 14px;
+  display: none;
+  gap: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  header nav .header-right .buttons {
+    display: grid;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  header nav .header-right .buttons {
+    gap: 15px;
+  }
+}
+
+header nav .header-right .buttons .button {
   width: 100%;
   background-color: #171717;
   border-radius: 10px;
   line-height: 30px;
+  padding: 7.5px 10px;
 }
 
-header nav .right .buttons .button:first-child {
+@media screen and (min-width: 1024px) {
+  header nav .header-right .buttons .button {
+    padding: 7.5px 15px;
+  }
+}
+
+header nav .header-right .buttons .button:first-child {
   background-color: #025d92;
 }
 
-header nav .right .buttons .button:hover {
+header nav .header-right .buttons .button:hover {
   background-color: #242424;
   cursor: pointer;
   transition: 0.5s;
 }
 
 /* header nav left */
-header nav .left {
+header nav .header-left {
   display: grid;
   grid-template-columns: auto;
   justify-content: end;
   gap: 15px;
 }
 
-header nav .left .person,
-header nav .left .cart {
+@media screen and (min-width: 768px) {
+  header nav .header-left {
+    grid-template-columns: auto auto;
+  }
+}
+
+header nav .header-left .person,
+header nav .header-left .cart {
   background-color: #0284c7;
   border-radius: 25%;
   height: 50px;
@@ -100,7 +141,14 @@ header nav .left .cart {
   display: none;
 }
 
-header nav .left .menu {
+@media screen and (min-width: 768px) {
+  header nav .header-left .person,
+  header nav .header-left .cart {
+    display: grid;
+  }
+}
+
+header nav .header-left .menu {
   height: 50px;
   width: 50px;
   padding: 10px;
@@ -109,63 +157,35 @@ header nav .left .menu {
   align-content: center;
 }
 
-header nav .left .cart {
-  background-color: #3f3f46;
-}
-
-header nav .left .cart:hover {
-  background-color: #025d92;
-  cursor: pointer;
-}
-
-header nav .left .person {
-  background-color: #0284c7;
-}
-
-header nav .left .person:hover {
-  background-color: #0ea5e9;
-  cursor: pointer;
-}
-
-header nav .left .person i,
-header nav .left .cart i {
-  font-size: 30px;
-}
-
-header nav .left .menu i {
-  font-size: 40px;
-}
-
 @media screen and (min-width: 768px) {
-  header {
-    background-color: #1b1d20;
-  }
-  header nav .right .logo-image {
-    background-color: transparent;
-  }
-  header nav .right span {
-    display: inline;
-  }
-  header nav .right .buttons {
-    display: grid;
-  }
-  header nav .left {
-    grid-template-columns: auto auto;
-  }
-  header nav .left .person,
-  header nav .left .cart {
-    display: grid;
-  }
-  header nav .left .menu {
+  header nav .header-left .menu {
     display: none;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  header nav .right .buttons {
-    gap: 15px;
-  }
-  header nav .right .buttons .button {
-    padding: 7.5px 15px;
-  }
+header nav .header-left .cart {
+  background-color: #3f3f46;
+}
+
+header nav .header-left .cart:hover {
+  background-color: #025d92;
+  cursor: pointer;
+}
+
+header nav .header-left .person {
+  background-color: #0284c7;
+}
+
+header nav .header-left .person:hover {
+  background-color: #0ea5e9;
+  cursor: pointer;
+}
+
+header nav .header-left .person i,
+header nav .header-left .cart i {
+  font-size: 30px;
+}
+
+header nav .header-left .menu i {
+  font-size: 40px;
 }
