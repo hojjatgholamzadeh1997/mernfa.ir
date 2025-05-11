@@ -1,0 +1,70 @@
+.float-buttons {
+  display: grid;
+  gap: 7.5px;
+  color: #fff;
+  font-family: Shabnam;
+  font-size: 20px;
+  position: fixed;
+  z-index: 9999;
+  left: 10px;
+  bottom: 10px;
+}
+
+.float-buttons .offs-button {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  height: 53.5px;
+  width: 53.5px;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  animation: offs-button-flash 10s ease-in-out infinite alternate;
+}
+
+.float-buttons .offs-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.float-buttons .go-to-up-button {
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  height: 53.5px;
+  width: 53.5px;
+  border-radius: 10px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.float-buttons .go-to-up-button:hover {
+  background-color: #3182ce;
+  border-color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+@keyframes offs-button-flash {
+  0% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #ffa600, 0 0 15px #ffa600,
+      0 0 20px #ffa600, 0 0 25px #ffa600, 0 0 30px #ffa600;
+  }
+  25% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #2cb2ff, 0 0 15px #2cb2ff,
+      0 0 20px #2cb2ff, 0 0 25px #2cb2ff, 0 0 30px #2cb2ff;
+  }
+  50% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #ff477e, 0 0 15px #ff477e,
+      0 0 20px #ff477e, 0 0 25px #ff477e, 0 0 30px #ff477e;
+  }
+  75% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #12d800, 0 0 15px #12d800,
+      0 0 20px #12d800, 0 0 25px #12d800, 0 0 30px #12d800;
+  }
+  100% {
+    text-shadow: 0 0 0, 0 0 5px #fff, 0 0 10px #6d16fa, 0 0 15px #6d16fa,
+      0 0 20px #6d16fa, 0 0 25px #6d16fa, 0 0 30px #6d16fa;
+  }
+}
