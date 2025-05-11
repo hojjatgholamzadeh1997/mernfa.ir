@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350" height="350" viewBox="0 0 350 350">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="350" height="350"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" y1="-0.889" x2="1" y2="1.889" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#2383ae"/>
+      <stop offset="1" stop-color="#6dd7b9"/>
+    </linearGradient>
+  </defs>
+  <g id="SPRK_default_preset_name_custom_1" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-path)">
+    <rect width="350" height="350" fill="#fff"/>
+    <g id="SPRK_default_preset_name_custom_1-2" data-name="SPRK_default_preset_name_custom – 1" clip-path="url(#clip-path)">
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="350" height="350" fill="#fff"/>
+      <g id="Group_1" data-name="Group 1" transform="translate(-26.83 -2.894)">
+        <g id="_6502421" data-name="6502421" transform="translate(5.044 -18.865)">
+          <g id="Background_Simple" data-name="Background Simple">
+            <path id="Path_1" data-name="Path 1" d="M281.886,138.35c-2.962,26.879-14.848,58.077-38.934,72.293-36.375,21.479-33.11,54.891-104.28,68.961a143.519,143.519,0,0,1-31.574,2.823,119.865,119.865,0,0,1-15.519-1.386c-45.327-7.007-76.011-39.159-87.435-77.778-15.013-50.887,14.147-83.893,33.5-103.782S70.862,17.326,140.711,2.972A139.667,139.667,0,0,1,173.166.051c24.89.8,52.085,9.245,70.976,26.682q2.136,1.944,4.146,4.061C274.561,58.137,285.928,101.7,281.886,138.35Z" transform="translate(162.013) rotate(35.025)" fill="#e5de0a"/>
+          </g>
+        </g>
+      </g>
+      <text id="mernfa.ir" transform="translate(14.325 39)" font-size="22" font-family="SegoeUI, Segoe UI" letter-spacing="0.02em"><tspan x="0" y="0">mernfa</tspan><tspan y="0" font-family="FarAdell, 'Far\.Adell'">.</tspan><tspan y="0">ir</tspan></text>
+    </g>
+    <path id="tailwindcss-icon" d="M70.75,64.978Q84.9,12.8,141.5,12.8c56.6,0,63.675,39.134,91.975,45.656Q261.777,64.98,283,38.889q-14.148,52.176-70.75,52.178c-56.6,0-63.675-39.134-91.975-45.656q-28.3-6.524-49.525,19.567ZM0,143.245Q14.148,91.069,70.75,91.067c56.6,0,63.675,39.134,91.975,45.656q28.3,6.524,49.525-19.567Q198.1,169.332,141.5,169.334c-56.6,0-63.675-39.134-91.975-45.656Q21.223,117.154,0,143.245Z" transform="translate(28.5 74.066)" fill-rule="evenodd" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

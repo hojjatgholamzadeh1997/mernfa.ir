@@ -642,18 +642,45 @@ main section.courses .courses-item .courses-item-down:hover {
 }
 
 /* main latest-ready-projects */
-main section.latest-ready-projects .title {
+main section.latest-ready-projects .title-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+main section.latest-ready-projects .title-container .title {
   color: #7dd3fc;
   font-size: 25px;
   font-family: Shabnam;
   margin-right: 25px;
 }
 
-main section.latest-ready-projects .title i {
+main section.latest-ready-projects .title-container .title i {
   font-size: 35px;
   margin-left: 10px;
   line-height: 0;
   vertical-align: middle;
+}
+
+main section.latest-ready-projects .title-container button {
+  background-color: #025d92;
+  color: #fff;
+  margin-left: 25px;
+  padding: 10px 15px;
+  font-family: Shabnam;
+  border-radius: 7.5px;
+  font-size: 16px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  main section.latest-ready-projects .title-container button {
+    display: inline;
+  }
+}
+
+main section.latest-ready-projects .title-container button:hover {
+  cursor: pointer;
 }
 
 /* main latest-ready-projects container */
@@ -683,6 +710,7 @@ main section.latest-ready-projects .latest-ready-projects-container {
     grid-template-columns: auto auto;
     gap: 15px;
     justify-content: space-between;
+    padding: 15px;
   }
 }
 
@@ -851,4 +879,143 @@ span.discount {
   top: 12.5px;
   color: #fff;
   font-family: Shabnam;
+}
+
+/* main latest-articles */
+main section.latest-articles .title-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+main section.latest-articles .title-container .title {
+  color: #7dd3fc;
+  font-size: 25px;
+  font-family: Shabnam;
+  margin-right: 25px;
+}
+
+main section.latest-articles .title-container .title i {
+  font-size: 35px;
+  margin-left: 10px;
+  line-height: 0;
+  vertical-align: middle;
+}
+
+main section.latest-articles .title-container button {
+  background-color: #025d92;
+  color: #fff;
+  margin-left: 25px;
+  padding: 10px 15px;
+  font-family: Shabnam;
+  border-radius: 7.5px;
+  font-size: 16px;
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  main section.latest-articles .title-container button {
+    display: inline;
+  }
+}
+
+main section.latest-articles .title-container button:hover {
+  cursor: pointer;
+}
+
+/* main latest-articles container */
+main section.latest-articles .latest-articles-container {
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  margin: 50px 0;
+  padding: 0 15px;
+}
+
+@media screen and (min-width: 640px) {
+  main section.latest-articles .latest-articles-container {
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  main section.latest-articles .latest-articles-container {
+    justify-content: space-between;
+    gap: 30px;
+    padding: 0 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  main section.latest-articles .latest-articles-container {
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main section.latest-articles .latest-articles-container {
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 15px;
+  }
+}
+
+/* main latest-articles item */
+main section.latest-articles .latest-articles-item {
+  width: 280px;
+  height: auto;
+  display: grid;
+  gap: 15px;
+  color: #fff;
+  font-family: Shabnam-Thin;
+  padding: 10px;
+  background-color: #fff;
+  border: 3px solid transparent;
+  border-radius: 15px;
+  position: relative;
+}
+
+main section.latest-articles .latest-articles-item:hover {
+  border: 3px solid #e0d311;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+main section.latest-articles .latest-articles-item .article-date,
+main section.latest-articles .latest-articles-item .article-view {
+  font-size: 14px;
+  background-color: #096252;
+  padding: 5px 12.5px;
+  border-radius: 5px;
+  position: absolute;
+}
+
+main section.latest-articles .latest-articles-item .article-date {
+  top: 12.5px;
+  right: 12.5px;
+}
+
+main section.latest-articles .latest-articles-item .article-view {
+  top: 12.5px;
+  left: 12.5px;
+}
+
+main section.latest-articles .latest-articles-item img {
+  width: 254px;
+  height: 254px;
+}
+
+main section.latest-articles .latest-articles-item .article-info {
+  background-color: #096252;
+  border-radius: 10px;
+  min-height: 70px;
+  padding: 12.5px 15px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 14px;
+  line-height: 25px;
 }

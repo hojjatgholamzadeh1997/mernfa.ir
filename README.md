@@ -55,6 +55,14 @@
         - nextjs-pro-advanced.svg
         - nexy-shop.svg
         - pdf-export.svg
+        - po-mernstack-apps-and-extensions.svg
+        - po-next.js-env-file.svg
+        - po-next.js-google-analytics-search-concole.svg
+        - po-next.js-line-clamp.svg
+        - po-next.js-loader-progressbar.svg
+        - po-next.js-react-toastify.svg
+        - po-what-is-mongodb.svg
+        - po-what-is-tailwindcss.svg
         - project-adv-blog-backend.svg
         - project-adv-blog-frontend.svg
         - project-adv-blog-fullstack.svg
