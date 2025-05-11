@@ -48,10 +48,20 @@
         - course-slider-with-next.js.svg
         - course-video-player.svg
         - fishing-shop-backend.svg
+        - fishing-shop-frontend.svg
+        - fishing-shop.svg
         - mernfa-logo.webp
         - nextjs-learning.webp
         - nextjs-pro-advanced.svg
         - nexy-shop.svg
+        - pdf-export.svg
+        - project-adv-blog-backend.svg
+        - project-adv-blog-frontend.svg
+        - project-adv-blog-fullstack.svg
+        - project-fileshop-backend.svg
+        - project-fileshop-frontend.svg
+        - project-fileshop-fullstack.svg
+        - project-map.svg
         - reset-password.svg
         - tailwind-mini-project-1.svg
         - tailwind-mini-project-2.svg

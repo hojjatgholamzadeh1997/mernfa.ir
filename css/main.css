@@ -719,6 +719,20 @@ main
     grid-template-columns: auto auto;
     direction: ltr;
   }
+  main
+    section.latest-ready-projects
+    .latest-ready-projects-container
+    .latest-ready-projects-item
+    .discount {
+    direction: rtl;
+  }
+  main
+    section.latest-ready-projects
+    .latest-ready-projects-container
+    .latest-ready-projects-item
+    .info {
+    direction: rtl;
+  }
 }
 
 main
@@ -754,7 +768,6 @@ main
   color: #fff;
   font-family: Shabnam;
   font-size: 16px;
-  direction: rtl;
 }
 
 main
