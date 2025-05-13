@@ -111,7 +111,7 @@ main
   .section-header-up
   .nextjs-learning
   .nextjs-learning-left {
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   display: grid;
   justify-content: center;
   align-content: center;
@@ -125,7 +125,7 @@ main
   .nextjs-learning
   .nextjs-learning-left
   h1 {
-  font-family: Shabnam-Thin;
+  font-family: Shabnam-Thin, sans-serif;
   color: #facc15;
   font-size: 30px;
   line-height: 50px;
@@ -158,7 +158,7 @@ main
 
 /* main section-header section-header-up mernfa-text*/
 main section.section-header .section-header-up .mernfa-text {
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   font-size: 65px;
   color: #fff;
   display: grid;
@@ -221,7 +221,7 @@ main
   justify-content: center;
   align-content: center;
   text-align: center;
-  font-family: Aviny;
+  font-family: Aviny, sans-serif;
   letter-spacing: 1.5px;
   gap: 15px;
   padding: 15px 17.5px;
@@ -335,7 +335,7 @@ main section.section-header .section-header-down {
 main section.section-header .section-header-down div {
   padding: 20px 15px;
   color: #fff;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   border-radius: 7.5px;
   width: 240px;
   display: grid;
@@ -395,7 +395,7 @@ main section.section-header .section-header-down div:nth-child(3) {
 main section.courses .title {
   color: #7dd3fc;
   font-size: 27px;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   margin-right: 25px;
 }
 
@@ -451,7 +451,7 @@ main section.courses .courses-item {
   gap: 15px;
   padding: 15px;
   color: #fff;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   margin: 0 auto;
   position: relative;
   width: 290px;
@@ -651,7 +651,7 @@ main section.latest-ready-projects .title-container {
 main section.latest-ready-projects .title-container .title {
   color: #7dd3fc;
   font-size: 25px;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   margin-right: 25px;
 }
 
@@ -667,7 +667,7 @@ main section.latest-ready-projects .title-container button {
   color: #fff;
   margin-left: 25px;
   padding: 10px 15px;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   border-radius: 7.5px;
   font-size: 16px;
   display: none;
@@ -794,7 +794,7 @@ main
   align-content: center;
   gap: 25px;
   color: #fff;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   font-size: 16px;
 }
 
@@ -878,7 +878,7 @@ span.discount {
   left: 12.5px;
   top: 12.5px;
   color: #fff;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
 }
 
 /* main latest-articles */
@@ -891,7 +891,7 @@ main section.latest-articles .title-container {
 main section.latest-articles .title-container .title {
   color: #7dd3fc;
   font-size: 25px;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   margin-right: 25px;
 }
 
@@ -907,7 +907,7 @@ main section.latest-articles .title-container button {
   color: #fff;
   margin-left: 25px;
   padding: 10px 15px;
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   border-radius: 7.5px;
   font-size: 16px;
   display: none;
@@ -969,7 +969,7 @@ main section.latest-articles .latest-articles-item {
   display: grid;
   gap: 15px;
   color: #fff;
-  font-family: Shabnam-Thin;
+  font-family: Shabnam-Thin, sans-serif;
   padding: 10px;
   background-color: #fff;
   border: 3px solid transparent;

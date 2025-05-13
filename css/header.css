@@ -58,7 +58,7 @@ header nav .header-right .logo .logo-image img {
 }
 
 header nav .header-right .logo span {
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   color: #38bdea;
   font-size: 25px;
   line-height: 45px;
@@ -72,7 +72,7 @@ header nav .header-right .logo span {
 }
 
 header nav .header-right .buttons {
-  font-family: Shabnam;
+  font-family: Shabnam, sans-serif;
   grid-template-columns: auto auto auto auto;
   font-size: 14px;
   display: none;
